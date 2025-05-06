@@ -1,57 +1,51 @@
-**RNA-Seq Analysis of Lung Tumor vs. Normal Tissue (GSE81089)**
-Course Project — Submitted for BIOL-5930- Data analysis
+***RNA-Seq Analysis of Lung Tumor vs. Normal Tissue (GSE81089)***
+Course Project — BIOL-5930: Data Analysis
 Institution: Saint Louis University
-Student: Ifthekar Hussain & Sri Vasista Talagampala
+Students: Ifthekar Hussain & Sri Vasista Talagampala
 
-**About the Project**
-This project presents a differential gene expression analysis using RNA-Seq data from lung cancer patients. The objective was to identify genes that are significantly upregulated or downregulated in tumor tissue compared to adjacent normal lung tissue. The dataset used (GSE81089) includes 218 human samples. The analysis aims to contribute to understanding the molecular mechanisms of lung tumor development.
+About the Project
+This project presents a differential gene expression analysis using RNA-Seq data from lung cancer patients. The goal was to identify genes that are significantly upregulated or downregulated in tumor tissue compared to adjacent normal lung tissue. The dataset used (GSE81089) includes 218 human lung tissue samples. This analysis helps improve our understanding of the molecular mechanisms involved in lung tumor development.
 
-**Dataset Information**
+Dataset Information
 Source: NCBI GEO Database
 
-Accession: GSE81089
+Accession Number: GSE81089
 
 Samples: 199 tumor tissues and 19 normal tissues
 
-Data type: Raw read counts from RNA-Seq
+Data Type: Raw read counts from RNA-Seq
 
-**Tools and Methods**
-The analysis was conducted in R with the following packages:
+Tools and Methods
+The analysis was performed in R, using the following packages:
 
-DESeq2 for differential gene expression analysis
+DESeq2 – differential gene expression analysis
 
-ggplot2 for visualization
+ggplot2 – data visualization
 
-pheatmap and EnhancedVolcano for clustering and significance plots
+pheatmap and EnhancedVolcano – heatmaps and volcano plots
 
-biomaRt for gene annotation
+biomaRt – gene annotation
 
-Steps included quality control, normalization using the median-of-ratios method, dispersion estimation, and statistical testing using a negative binomial model. Genes with an adjusted p-value < 0.05 and absolute log2 fold change > 1 were considered significantly differentially expressed.
+Steps included:
 
-**Key Findings**
-Identified over 1,000 genes with significant expression differences between tumor and normal tissues
+Quality control and filtering of low-count genes
 
-PCA analysis showed distinct clustering of tumor and normal samples
+Normalization using the median-of-ratios method
 
-Volcano and MA plots highlighted key genes with strong statistical and biological significance
+Dispersion estimation
 
-Heatmap of the top differentially expressed genes demonstrated consistent expression patterns across sample groups
+Differential testing using a negative binomial model
 
-**Conclusion**
-The analysis revealed a substantial number of genes differentially expressed between tumor and normal lung tissues. These genes may be involved in cancer progression and represent potential targets for further functional studies or therapeutic development. This project reinforces the importance of RNA-Seq and statistical rigor in understanding cancer biology.
+Genes with an adjusted p-value < 0.05 and absolute log2 fold change > 1 were considered significantly differentially expressed.
 
-**Repository Contents**
-File or Folder	Description
-finalprojectdataanalysis.Rmd	R Markdown file containing the complete analysis
-README.md	This project overview and documentation
-figures/	Visual outputs including PCA, heatmap, and plots
-results/	Tables of differentially expressed gene statistics
+Key Findings
+Over 1,000 genes showed significant differential expression
 
-**Academic Use**
-This repository was developed for coursework as part of BIOL-5930 at Saint Louis University. All data used is publicly available and the work is intended for academic purposes only.
+PCA showed clear separation between tumor and normal samples
 
-**Author**
-Ifthekar Hussain & Sri Vasista Talagampala
-MS Bioinformatics, Saint Louis University
-GitHub: https://github.com/ifthekarhussain
+Volcano and MA plots highlighted biologically meaningful genes
 
+A heatmap of top genes showed consistent expression patterns across conditions
+
+Conclusion
+The analysis revealed a substantial number of genes that are differentially expressed between lung tumors and normal tissues. These genes may play a role in cancer progression and could be targets for further functional studies or therapeutic research. This project highlights the power of RNA-Seq and proper statistical modeling in studying disease biology.
