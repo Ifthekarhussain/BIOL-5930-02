@@ -83,8 +83,6 @@ Ifthekar Hussain
 
 MS Bioinformatics, Saint Louis University
 
-GitHub: ifthekarhussain
-
 Sri Vasista Talagampala
 
 MS Bioinformatics, Saint Louis University
