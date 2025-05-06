@@ -64,9 +64,13 @@ Our results suggest extensive transcriptomic alterations in lung cancer. Many id
 ***Repository Contents***
 
 File / Folder	Description
+
 finalprojectdataanalysis.Rmd	R Markdown file with full analysis pipeline
+
 README.md	This documentation file
+
 figures/	Contains plots (PCA, MA, heatmap, volcano)
+
 results/	Output tables of significant genes
 
 ***Academic Context***
@@ -76,9 +80,12 @@ This project was completed as part of the graduate course BIOL-5930 at Saint Lou
 ***Authors***
 
 Ifthekar Hussain
+
 MS Bioinformatics, Saint Louis University
+
 GitHub: ifthekarhussain
 
 Sri Vasista Talagampala
+
 MS Bioinformatics, Saint Louis University
 
