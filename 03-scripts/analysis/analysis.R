@@ -1,6 +1,6 @@
 
 # RNA-Seq Differential Expression Analysis: Tumor vs Normal (GSE81089)
-# Author: Ifthekar Hussain
+# Author: Ifthekar Hussain, Sri Vasista Talagampala
 # Date: April 26, 2025
 
 # Load necessary libraries
